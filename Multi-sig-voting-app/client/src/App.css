@@ -1,0 +1,74 @@
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  width: 48%;
+  /* Adjusted width for a small gap between boxes */
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #111;
+  border: 0.1px solid white;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  background-color: #fff;
+  color: #333;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  width: 98%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  display: block;
+  margin: 0 auto;
+}
+
+button:active {
+  background-color: rgb(113, 1, 113);
+  transform: translateY(2px);
+}
+
+/* Additional styling for status messages */
+.status {
+  margin-top: 10px;
+  color: #ff6347;
+}
+
+.arbiter-box {
+  background-color: #111;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.candidate-box {
+  background-color: #111;
+  padding: 15px;
+  border-radius: 10px;
+}
